@@ -19,6 +19,7 @@ In order to use this project you must have a Vagrant basebox with Salt and ZeroM
 
 I used the [Veewee](https://github.com/jedi4ever/veewee) templates to build a new base box which can
 be found here:
+
 * [Ubuntu 11.10 32-bit](https://github.com/mattmcclean/veewee/tree/master/templates/ubuntu-11.10-server-i386-salt096): Sets up Ubuntu Oneiric 32-bit with ZeroMQ 2.1.1 and Salt 0.9.6 
 * [Ubuntu 11.10 64-bit](https://github.com/mattmcclean/veewee/tree/master/templates/ubuntu-11.10-server-amd64-salt096): Sets up Ubuntu Oneiric 64-bit with ZeroMQ 2.1.1 and Salt 0.9.6 
 
