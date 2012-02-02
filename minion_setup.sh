@@ -15,7 +15,7 @@ echo 'Salt Master IP address is ' $1
 sudo sed 's/#master: salt/master: '${1}'/g' /vagrant/$min_name.conf | sudo tee /etc/salt/minion > /dev/null
 
 echo 'Starting Salt Minion'
-nohup sudo salt-minion &
+nohup sudo salt-minion > /dev/null 2>&1 &
 echo 'Salt Minion started'
 
 echo 'Call state.highstate command to configure minion'
